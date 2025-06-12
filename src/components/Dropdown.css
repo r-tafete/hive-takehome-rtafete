@@ -1,6 +1,5 @@
 .dropdown {
   position: relative;
-
 }
 
 .dropdown-top {
@@ -25,6 +24,7 @@
     width: fit-content;
     display: flex;
     justify-content: space-between;
+    margin-left: 8px;
 }
 
 .dropdown-arrow > img {
@@ -93,9 +93,4 @@
 
 #select-all:hover, #clear-all:hover  {
     text-decoration: underline;
-}
-
-/* Arrow inside the dropdown */
-.dropdown-arrow {
-  margin-left: 8px;
 }

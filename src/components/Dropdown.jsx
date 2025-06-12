@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import downCaret from "../assets/caret-down.svg"
 import upCaret from "../assets/caret-up.svg"
-
-
 import "./Dropdown.css";
 
 export default function Dropdown({items, selectedItems, multiSelect, onChange}) {
